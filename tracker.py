@@ -1,0 +1,1 @@
+print("SMP Tracker version 2")
