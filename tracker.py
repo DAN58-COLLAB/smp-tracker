@@ -1,1 +1,1 @@
-print("SMP Tracker new version")
+print("SMP Tracker new version 2.0")
