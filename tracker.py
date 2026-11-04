@@ -1,1 +1,2 @@
-print("SMP Tracker new version 2.0")
+def check_goal(steps, goal=10000):
+    return steps >= goal
