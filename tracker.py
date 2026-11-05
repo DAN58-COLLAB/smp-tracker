@@ -1,12 +1,7 @@
-def calculate_daily_trend(steps):
+def predict_tomorrow_steps(steps):
     if len(steps) < 2:
         return "Not enough data"
 
-    difference = steps[-1] - steps[-2]
+    prediction = (steps[-1] + steps[-2]) / 2
 
-    if difference > 0:
-        return "Increasing"
-    elif difference < 0:
-        return "Decreasing"
-    else:
-        return "Unchanged"
+    return round(prediction)
