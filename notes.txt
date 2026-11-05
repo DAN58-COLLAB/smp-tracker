@@ -1,1 +1,2 @@
 Today I am studying Git
+I have succcessfully learned how to stage and commit files using git
